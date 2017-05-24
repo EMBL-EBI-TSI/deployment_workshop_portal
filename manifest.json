@@ -1,0 +1,12 @@
+{
+    "applicationName": "CentOS_server",
+        "contactEmail": "evdbergh@ebi.ac.uk",
+        "about": "A basic CentOS server for the deployment workshop practical",
+        "version": "0.9",
+        "cloudProviders": [
+            { "cloudProvider":"OSTACK","path":"ostack"
+            }
+        ],
+        "deploymentParameters": ["keypair"],
+        "outputs": []
+}
